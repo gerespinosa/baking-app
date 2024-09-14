@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export const BankCard = ({ account, userName, showbalance = true }: CreditCardProps) => {
+export const BankCard = ({ account, userName, showBalance = true }: CreditCardProps) => {
     return (
         <div className="flex flex-col">
             <Link href={'/'}
